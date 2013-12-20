@@ -66,6 +66,7 @@
 // Non-Oscillator Audio Sources
 #include "Tonic/BufferPlayer.h"
 
+
 // ------- Control Generators --------
 
 #include "Tonic/ControlDelay.h"
@@ -82,6 +83,8 @@
 #include "Tonic/ControlRandom.h"
 #include "Tonic/ControlSnapToScale.h"
 #include "Tonic/ControlMidiToFreq.h"
+#include "Tonic/ControlTriggerFilter.h"
+#include "Tonic/ControlCallback.h" // C++11 only
 
 // -------- Util ---------
 

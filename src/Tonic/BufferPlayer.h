@@ -75,9 +75,9 @@ namespace Tonic {
       return *this;
     };
     
-    createControlGeneratorSetters(BufferPlayer, loop, setDoesLoop)
-    createControlGeneratorSetters(BufferPlayer, trigger, setTrigger)
-    createControlGeneratorSetters(BufferPlayer, startPosition, setStartPosition)
+    TONIC_MAKE_CTRL_GEN_SETTERS(BufferPlayer, loop, setDoesLoop)
+    TONIC_MAKE_CTRL_GEN_SETTERS(BufferPlayer, trigger, setTrigger)
+    TONIC_MAKE_CTRL_GEN_SETTERS(BufferPlayer, startPosition, setStartPosition)
 
   };
 }
